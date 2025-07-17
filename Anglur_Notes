@@ -79,4 +79,14 @@ Note : In angular/javaScript/TypeScript we can not define variables(const, let, 
     - Angular CLI is tool that helps developers to create, build, test and deploy Angular applications.
     - ng generate component new_component_name
 
+## Components In Angular
 
+ # What is Component ?
+ - Components are the main buiding blocks of angular application.
+ - Components are responsible for controlling a specific part of user interface.
+ - Each component consit of :
+    - An HTML template that declares what renders on page.
+    - A TypeScript class that defines behavior.
+    - A CSS selector that defines how the component is used in template.
+    - Optionally, CSS styles applied to the template.
+ - For every feature we can make component which can be re-usable at multiple places.
