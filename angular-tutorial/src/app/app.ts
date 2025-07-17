@@ -16,4 +16,16 @@ export class App {
 
   x = 10;
   y = 20;
+
+  // Function for click button
+  
+  handleClickEvent(){
+    //alert("Functioned called")
+    console.log("Function called")
+    this.otherFunction()
+  }
+
+  otherFunction(){
+    console.log("other function called")
+  }
 }
