@@ -36,5 +36,19 @@ Note : In angular/javaScript/TypeScript we can not define variables(const, let, 
 # node modules folder 
  - Never transfer or push this folder to git
  - Just do npm install and this modules get install again in loacl project.
- 
+
+# src folder 
+ - All the source code present in src folder
+
+# index.html : 
+  - This is entry point in html
+  - This is first file which get load when we run the angular project all other files get after this 
+    index.html file.
+
+# main.ts
+  - This is typescript entry point file.
+  - This file decides which component should load
+  - angular.json file browser key is define and value is "src/main.ts"   "browser" : "src/main.ts"
+
+# public folder : All the public files here like images,icons etc.
 
