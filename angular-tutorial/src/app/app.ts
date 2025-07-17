@@ -9,5 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = "Mahesh"
-  lastName = 'Kakde'  // Interpolation example
+  lastName = 'Kakde' // Interpolation example
+
+  x = 10;
+  y = 20;
 }
