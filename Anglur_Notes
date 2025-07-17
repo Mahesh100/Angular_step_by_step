@@ -1,0 +1,16 @@
+
+# Command to install agular cli
+ 
+   npm install -g @angular/cli
+
+# Check if angular install or not
+
+    ng version
+
+# To create new app in angular 
+
+    ng new my-app-name
+
+# To create builld of newely create angular application
+
+    ng serve
