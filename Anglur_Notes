@@ -14,3 +14,27 @@
 # To create builld of newely create angular application
 
     ng serve
+
+
+# Signal in angular
+  Signal is new feature introduced in angular 16 as part of angular reactive model.
+  Signal is a function that create a reactive variable in angular.
+
+Note : In angular/javaScript/TypeScript we can not define variables(const, let, var) inside the class  directly unless this are define inside the function in as class.
+       But we can define properties inside the class
+
+
+## File and Folder structure of Angulr Project 
+
+# package.json file
+
+# package-lock.json file will be automatically create while installing node modules.
+  - package-lock.json keeps the record of latest version of angular project.
+
+# angular.json : All the configuartion related to angular project are present in angular.json file.
+
+# node modules folder 
+ - Never transfer or push this folder to git
+ - Just do npm install and this modules get install again in loacl project.
+ 
+

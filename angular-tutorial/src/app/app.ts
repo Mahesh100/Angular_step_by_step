@@ -8,5 +8,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('angular-tutorial');
+  protected readonly title = "Mahesh"
+  lastName = 'Kakde'  // Interpolation example
 }
